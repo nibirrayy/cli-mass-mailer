@@ -1,0 +1,11 @@
+{
+  "smpt": "ENTER_SMPT_SERVER",
+  "port": "ENTER_SMPT_SERVER_PORT",
+
+  "smtp_username": "YOUR_SMTP_USER_NAME",
+  "password": "YOUR_SMPT_PASSWORD",
+
+  "from_email": "ENTER_YOUR_EMAIL_ID",
+  "subject": "Subject of the email comes here",
+  "message": "The email body comes here"
+}
