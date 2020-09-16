@@ -1,5 +1,5 @@
 {
-  "smpt": "ENTER_SMPT_SERVER",
+  "smtp": "ENTER_SMPT_SERVER",
   "port": "ENTER_SMPT_SERVER_PORT",
 
   "smtp_username": "YOUR_SMTP_USER_NAME",

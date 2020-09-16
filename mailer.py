@@ -25,7 +25,7 @@ file.close()
 MESSAGE = "SUBJECT: {} \n\n{}".format(CONFIG["subject"], CONFIG["message"])
 
 # Open SMTP secure connection.
-EMAIL_SERVER = smtplib.SMTP_SSL(CONFIG["smpt"], CONFIG["port"])
+EMAIL_SERVER = smtplib.SMTP_SSL(CONFIG["smtp"], CONFIG["port"])
 # Login
 EMAIL_SERVER.login(CONFIG["smtp_username"], CONFIG["password"])
 # Send emails to emails in EMAIL_LIST in a loop
